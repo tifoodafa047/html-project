@@ -2,7 +2,9 @@ def add(a: int, b: int) -> int:
     return a + b
 
 def main():
-    x = 5
+    # change value of x
+    x = 15
+    
     y = 10
     result = add(x, y)
     print(f"The sum of {x} and {y} is {result}")
